@@ -2,7 +2,6 @@
 
 require 'spec_helper'
 describe 'journald' do
-
   on_supported_os.each do |os, f|
     context "on #{os}" do
       let(:facts) do
