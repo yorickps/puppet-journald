@@ -1,52 +1,64 @@
 {
-	"name": "cristifalcas-journald",
-	"author": "Cristian Falcas",
-	"version": "0.6.0",
-	"license": "Apache-2.0",
-	"source": "git@github.com:cristifalcas/puppet-journald.git",
-	"project_page": "https://github.com/cristifalcas/puppet-journald",
-	"issues_url": "https://github.com/cristifalcas/puppet-journald/issues",
-	"dependencies":
-	[
-		{
-			"name": "puppetlabs/stdlib",
-			"version_requirement": "4.x"
-		},
-		{
-			"name": "puppetlabs/inifile",
-			"version_requirement": "2.x"
-		}
-	],
-	"operatingsystem_support":
-	[
-		{
-			"operatingsystem": "RedHat",
-			"operatingsystemrelease": [ "7"
-			]
-		},
-		{
-			"operatingsystem": "CentOS",
-			"operatingsystemrelease": [ "7"
-			]
-		},
-		{
-			"operatingsystem": "OracleLinux",
-			"operatingsystemrelease": [ "7"
-			]
-		},
-		{
-			"operatingsystem": "Scientific",
-			"operatingsystemrelease": [ "7"
-			]
-		},
-		{
-			"operatingsystem": "Fedora",
-			"operatingsystemrelease": [ "21"
-			]
-		}
-	],
-	"requirements": [],
-	"summary": "Configures journald on el7",
-	"tags": [ "journald"
-	]
+  "name": "cristifalcas-journald",
+  "version": "0.6.0",
+  "author": "Cristian Falcas",
+  "summary": "Configures journald on el7",
+  "license": "Apache-2.0",
+  "source": "git@github.com:cristifalcas/puppet-journald.git",
+  "project_page": "https://github.com/cristifalcas/puppet-journald",
+  "issues_url": "https://github.com/cristifalcas/puppet-journald/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.x"
+    },
+    {
+      "name": "puppetlabs/inifile",
+      "version_requirement": "2.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "21"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "tags": [
+    "journald"
+  ],
+  "pdk-version": "1.14.1",
+  "template-url": "pdk-default#1.14.1",
+  "template-ref": "1.14.1-0-g0b5b39b"
 }
