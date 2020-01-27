@@ -41,6 +41,6 @@ branches:
   only:
     - master
     - /^v\d/
-    - /^dev
+    - /^dev-*
 notifications:
   email: false
