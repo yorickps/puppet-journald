@@ -1,7 +1,8 @@
-# This class ensures the service is running.
+# @summary Manage the `journald` service
+
+class journald::service {
 
 if $journald::service_manage == true {
-  class journald::service {
     service { 'systemd-journald':
       ensure     => $journald::service_ensure,
       enable     => $journald::service_enable,
