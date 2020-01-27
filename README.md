@@ -26,13 +26,13 @@ that is received from a variety of sources:
 
 ### Beginning with journald
 
-```
+```puppet
 include journald
 ```
 
 ## Usage
 
-```
+```puppet
 class {'journald': options => {
     'Compress'          => 'yes',
 	'ForwardToSyslog'   => 'yes',
