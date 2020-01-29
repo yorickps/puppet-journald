@@ -1,9 +1,8 @@
 ---
-
-journald::manage_service: true
 journald::persist_log: true
 journald::service_enable: true
 journald::service_ensure: running
+journald::service_manage: true
 journald::options:
   Storage: 'auto'
   Compress: 'yes'
